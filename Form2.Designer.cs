@@ -35,6 +35,7 @@
             radioButton4 = new RadioButton();
             radioButton5 = new RadioButton();
             groupBox1 = new GroupBox();
+            button1 = new Button();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -45,9 +46,9 @@
             radioButton1.Name = "radioButton1";
             radioButton1.Size = new Size(143, 19);
             radioButton1.TabIndex = 1;
-            radioButton1.TabStop = true;
             radioButton1.Text = "Cek Kondisi Psikologis\r\n";
             radioButton1.UseVisualStyleBackColor = true;
+            radioButton1.CheckedChanged += radioButton1_CheckedChanged;
             // 
             // radioButton2
             // 
@@ -56,7 +57,6 @@
             radioButton2.Name = "radioButton2";
             radioButton2.Size = new Size(106, 19);
             radioButton2.TabIndex = 2;
-            radioButton2.TabStop = true;
             radioButton2.Text = "Jurnal Perasaan";
             radioButton2.UseVisualStyleBackColor = true;
             // 
@@ -67,7 +67,6 @@
             radioButton3.Name = "radioButton3";
             radioButton3.Size = new Size(72, 19);
             radioButton3.TabIndex = 3;
-            radioButton3.TabStop = true;
             radioButton3.Text = "Relaksasi";
             radioButton3.UseVisualStyleBackColor = true;
             // 
@@ -78,7 +77,6 @@
             radioButton4.Name = "radioButton4";
             radioButton4.Size = new Size(105, 19);
             radioButton4.TabIndex = 4;
-            radioButton4.TabStop = true;
             radioButton4.Text = "Edukasi & Artikel";
             radioButton4.UseVisualStyleBackColor = true;
             // 
@@ -89,13 +87,13 @@
             radioButton5.Name = "radioButton5";
             radioButton5.Size = new Size(134, 19);
             radioButton5.TabIndex = 5;
-            radioButton5.TabStop = true;
             radioButton5.Text = "Konsultasi / Bantuan";
             radioButton5.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
             groupBox1.BackColor = Color.FromArgb(64, 0, 0);
+            groupBox1.Controls.Add(button1);
             groupBox1.Controls.Add(radioButton1);
             groupBox1.Controls.Add(radioButton5);
             groupBox1.Controls.Add(radioButton2);
@@ -110,6 +108,17 @@
             groupBox1.Text = "Halo, bagaimana perasaanmu hari ini?\nSilakan pilih salah satu menu di bawah ini:";
             groupBox1.Enter += groupBox1_Enter;
             // 
+            // button1
+            // 
+            button1.BackColor = Color.Maroon;
+            button1.Location = new Point(404, 279);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 6;
+            button1.Text = "Submit";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -117,8 +126,9 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(800, 450);
             Controls.Add(groupBox1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form2";
-            Text = "Form2";
+            Text = "Dashboard";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ResumeLayout(false);
@@ -131,5 +141,6 @@
         private RadioButton radioButton4;
         private RadioButton radioButton5;
         private GroupBox groupBox1;
+        private Button button1;
     }
 }

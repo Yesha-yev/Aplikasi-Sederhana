@@ -30,50 +30,50 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             groupBox1 = new GroupBox();
-            groupBox2 = new GroupBox();
-            groupBox3 = new GroupBox();
-            groupBox4 = new GroupBox();
-            groupBox5 = new GroupBox();
-            groupBox6 = new GroupBox();
-            groupBox7 = new GroupBox();
-            groupBox8 = new GroupBox();
-            groupBox9 = new GroupBox();
-            radioButton1 = new RadioButton();
-            radioButton2 = new RadioButton();
             radioButton3 = new RadioButton();
             radioButton4 = new RadioButton();
+            radioButton2 = new RadioButton();
+            radioButton1 = new RadioButton();
+            groupBox2 = new GroupBox();
             radioButton9 = new RadioButton();
-            radioButton10 = new RadioButton();
-            radioButton11 = new RadioButton();
             radioButton12 = new RadioButton();
+            radioButton11 = new RadioButton();
+            radioButton10 = new RadioButton();
+            groupBox3 = new GroupBox();
             radioButton5 = new RadioButton();
             radioButton6 = new RadioButton();
-            radioButton7 = new RadioButton();
             radioButton8 = new RadioButton();
+            radioButton7 = new RadioButton();
+            groupBox4 = new GroupBox();
             radioButton13 = new RadioButton();
+            radioButton16 = new RadioButton();
             radioButton14 = new RadioButton();
             radioButton15 = new RadioButton();
-            radioButton16 = new RadioButton();
+            groupBox5 = new GroupBox();
             radioButton17 = new RadioButton();
             radioButton18 = new RadioButton();
-            radioButton19 = new RadioButton();
             radioButton20 = new RadioButton();
+            radioButton19 = new RadioButton();
+            groupBox6 = new GroupBox();
             radioButton21 = new RadioButton();
             radioButton22 = new RadioButton();
-            radioButton23 = new RadioButton();
             radioButton24 = new RadioButton();
+            radioButton23 = new RadioButton();
+            groupBox7 = new GroupBox();
             radioButton25 = new RadioButton();
             radioButton26 = new RadioButton();
-            radioButton27 = new RadioButton();
             radioButton28 = new RadioButton();
+            radioButton27 = new RadioButton();
+            groupBox8 = new GroupBox();
             radioButton29 = new RadioButton();
             radioButton30 = new RadioButton();
-            radioButton31 = new RadioButton();
             radioButton32 = new RadioButton();
+            radioButton31 = new RadioButton();
+            groupBox9 = new GroupBox();
             radioButton33 = new RadioButton();
             radioButton34 = new RadioButton();
-            radioButton35 = new RadioButton();
             radioButton36 = new RadioButton();
+            radioButton35 = new RadioButton();
             button1 = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
@@ -100,140 +100,6 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Seberapa sering kamu merasa gugup, cemas, atau sangat tegang akhir-akhir ini?";
             // 
-            // groupBox2
-            // 
-            groupBox2.BackColor = SystemColors.ActiveCaption;
-            groupBox2.Controls.Add(radioButton9);
-            groupBox2.Controls.Add(radioButton12);
-            groupBox2.Controls.Add(radioButton11);
-            groupBox2.Controls.Add(radioButton10);
-            groupBox2.Location = new Point(16, 201);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(291, 154);
-            groupBox2.TabIndex = 1;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Apakah kamu kesulitan mengontrol rasa khawatir atau overthinking?";
-            // 
-            // groupBox3
-            // 
-            groupBox3.BackColor = SystemColors.ActiveCaption;
-            groupBox3.Controls.Add(radioButton5);
-            groupBox3.Controls.Add(radioButton6);
-            groupBox3.Controls.Add(radioButton8);
-            groupBox3.Controls.Add(radioButton7);
-            groupBox3.Location = new Point(16, 382);
-            groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(291, 164);
-            groupBox3.TabIndex = 2;
-            groupBox3.TabStop = false;
-            groupBox3.Text = "Apakah kamu sering merasa ketakutan seakan sesuatu yang buruk akan terjadi?";
-            // 
-            // groupBox4
-            // 
-            groupBox4.BackColor = SystemColors.ActiveCaption;
-            groupBox4.Controls.Add(radioButton13);
-            groupBox4.Controls.Add(radioButton16);
-            groupBox4.Controls.Add(radioButton14);
-            groupBox4.Controls.Add(radioButton15);
-            groupBox4.Location = new Point(383, 12);
-            groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(290, 163);
-            groupBox4.TabIndex = 3;
-            groupBox4.TabStop = false;
-            groupBox4.Text = "Apakah kamu mengalami kesulitan untuk rileks meski sedang istirahat?";
-            // 
-            // groupBox5
-            // 
-            groupBox5.BackColor = SystemColors.ActiveCaption;
-            groupBox5.Controls.Add(radioButton17);
-            groupBox5.Controls.Add(radioButton18);
-            groupBox5.Controls.Add(radioButton20);
-            groupBox5.Controls.Add(radioButton19);
-            groupBox5.Location = new Point(383, 201);
-            groupBox5.Name = "groupBox5";
-            groupBox5.Size = new Size(290, 154);
-            groupBox5.TabIndex = 4;
-            groupBox5.TabStop = false;
-            groupBox5.Text = "Apakah kamu merasa gelisah sampai tidak bisa diam atau tidak nyaman di tempat umum?";
-            // 
-            // groupBox6
-            // 
-            groupBox6.BackColor = SystemColors.ActiveCaption;
-            groupBox6.Controls.Add(radioButton21);
-            groupBox6.Controls.Add(radioButton22);
-            groupBox6.Controls.Add(radioButton24);
-            groupBox6.Controls.Add(radioButton23);
-            groupBox6.Location = new Point(383, 382);
-            groupBox6.Name = "groupBox6";
-            groupBox6.Size = new Size(290, 164);
-            groupBox6.TabIndex = 5;
-            groupBox6.TabStop = false;
-            groupBox6.Text = "Apakah kamu mudah merasa terganggu atau cepat marah akhir-akhir ini?";
-            // 
-            // groupBox7
-            // 
-            groupBox7.BackColor = SystemColors.ActiveCaption;
-            groupBox7.Controls.Add(radioButton25);
-            groupBox7.Controls.Add(radioButton26);
-            groupBox7.Controls.Add(radioButton28);
-            groupBox7.Controls.Add(radioButton27);
-            groupBox7.Location = new Point(746, 12);
-            groupBox7.Name = "groupBox7";
-            groupBox7.Size = new Size(283, 163);
-            groupBox7.TabIndex = 6;
-            groupBox7.TabStop = false;
-            groupBox7.Text = "Apakah kamu merasa takut bahwa sesuatu bisa mengendalikamu atau kamu kehilangan kendali?";
-            // 
-            // groupBox8
-            // 
-            groupBox8.BackColor = SystemColors.ActiveCaption;
-            groupBox8.Controls.Add(radioButton29);
-            groupBox8.Controls.Add(radioButton30);
-            groupBox8.Controls.Add(radioButton32);
-            groupBox8.Controls.Add(radioButton31);
-            groupBox8.Location = new Point(746, 201);
-            groupBox8.Name = "groupBox8";
-            groupBox8.Size = new Size(283, 154);
-            groupBox8.TabIndex = 6;
-            groupBox8.TabStop = false;
-            groupBox8.Text = "Apakah kamu mengalami gangguan tidur (sulit tidur, sering terbangun, mimpi buruk)?";
-            // 
-            // groupBox9
-            // 
-            groupBox9.BackColor = SystemColors.ActiveCaption;
-            groupBox9.Controls.Add(radioButton33);
-            groupBox9.Controls.Add(radioButton34);
-            groupBox9.Controls.Add(radioButton36);
-            groupBox9.Controls.Add(radioButton35);
-            groupBox9.Location = new Point(746, 382);
-            groupBox9.Name = "groupBox9";
-            groupBox9.Size = new Size(283, 164);
-            groupBox9.TabIndex = 7;
-            groupBox9.TabStop = false;
-            groupBox9.Text = "Apakah kamu sering mengalami sakit kepala, detak jantung cepat, atau sesak napas saat cemas?";
-            // 
-            // radioButton1
-            // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(15, 62);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(93, 19);
-            radioButton1.TabIndex = 0;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "Tidak Pernah";
-            radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(15, 87);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(109, 19);
-            radioButton2.TabIndex = 1;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "Kadang-kadang";
-            radioButton2.UseVisualStyleBackColor = true;
-            // 
             // radioButton3
             // 
             radioButton3.AutoSize = true;
@@ -256,6 +122,42 @@
             radioButton4.Text = "Hampir setiap hari";
             radioButton4.UseVisualStyleBackColor = true;
             // 
+            // radioButton2
+            // 
+            radioButton2.AutoSize = true;
+            radioButton2.Location = new Point(15, 87);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(109, 19);
+            radioButton2.TabIndex = 1;
+            radioButton2.TabStop = true;
+            radioButton2.Text = "Kadang-kadang";
+            radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            radioButton1.AutoSize = true;
+            radioButton1.Location = new Point(15, 62);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(93, 19);
+            radioButton1.TabIndex = 0;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "Tidak Pernah";
+            radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            groupBox2.BackColor = SystemColors.ActiveCaption;
+            groupBox2.Controls.Add(radioButton9);
+            groupBox2.Controls.Add(radioButton12);
+            groupBox2.Controls.Add(radioButton11);
+            groupBox2.Controls.Add(radioButton10);
+            groupBox2.Location = new Point(16, 201);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(291, 154);
+            groupBox2.TabIndex = 1;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "Apakah kamu kesulitan mengontrol rasa khawatir atau overthinking?";
+            // 
             // radioButton9
             // 
             radioButton9.AutoSize = true;
@@ -267,16 +169,16 @@
             radioButton9.Text = "Sering";
             radioButton9.UseVisualStyleBackColor = true;
             // 
-            // radioButton10
+            // radioButton12
             // 
-            radioButton10.AutoSize = true;
-            radioButton10.Location = new Point(15, 125);
-            radioButton10.Name = "radioButton10";
-            radioButton10.Size = new Size(122, 19);
-            radioButton10.TabIndex = 7;
-            radioButton10.TabStop = true;
-            radioButton10.Text = "Hampir setiap hari";
-            radioButton10.UseVisualStyleBackColor = true;
+            radioButton12.AutoSize = true;
+            radioButton12.Location = new Point(15, 50);
+            radioButton12.Name = "radioButton12";
+            radioButton12.Size = new Size(93, 19);
+            radioButton12.TabIndex = 4;
+            radioButton12.TabStop = true;
+            radioButton12.Text = "Tidak Pernah";
+            radioButton12.UseVisualStyleBackColor = true;
             // 
             // radioButton11
             // 
@@ -289,16 +191,30 @@
             radioButton11.Text = "Kadang-kadang";
             radioButton11.UseVisualStyleBackColor = true;
             // 
-            // radioButton12
+            // radioButton10
             // 
-            radioButton12.AutoSize = true;
-            radioButton12.Location = new Point(15, 50);
-            radioButton12.Name = "radioButton12";
-            radioButton12.Size = new Size(93, 19);
-            radioButton12.TabIndex = 4;
-            radioButton12.TabStop = true;
-            radioButton12.Text = "Tidak Pernah";
-            radioButton12.UseVisualStyleBackColor = true;
+            radioButton10.AutoSize = true;
+            radioButton10.Location = new Point(15, 125);
+            radioButton10.Name = "radioButton10";
+            radioButton10.Size = new Size(122, 19);
+            radioButton10.TabIndex = 7;
+            radioButton10.TabStop = true;
+            radioButton10.Text = "Hampir setiap hari";
+            radioButton10.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            groupBox3.BackColor = SystemColors.ActiveCaption;
+            groupBox3.Controls.Add(radioButton5);
+            groupBox3.Controls.Add(radioButton6);
+            groupBox3.Controls.Add(radioButton8);
+            groupBox3.Controls.Add(radioButton7);
+            groupBox3.Location = new Point(16, 382);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Size = new Size(291, 164);
+            groupBox3.TabIndex = 2;
+            groupBox3.TabStop = false;
+            groupBox3.Text = "Apakah kamu sering merasa ketakutan seakan sesuatu yang buruk akan terjadi?";
             // 
             // radioButton5
             // 
@@ -322,17 +238,6 @@
             radioButton6.Text = "Tidak Pernah";
             radioButton6.UseVisualStyleBackColor = true;
             // 
-            // radioButton7
-            // 
-            radioButton7.AutoSize = true;
-            radioButton7.Location = new Point(15, 76);
-            radioButton7.Name = "radioButton7";
-            radioButton7.Size = new Size(109, 19);
-            radioButton7.TabIndex = 9;
-            radioButton7.TabStop = true;
-            radioButton7.Text = "Kadang-kadang";
-            radioButton7.UseVisualStyleBackColor = true;
-            // 
             // radioButton8
             // 
             radioButton8.AutoSize = true;
@@ -344,6 +249,31 @@
             radioButton8.Text = "Hampir setiap hari";
             radioButton8.UseVisualStyleBackColor = true;
             // 
+            // radioButton7
+            // 
+            radioButton7.AutoSize = true;
+            radioButton7.Location = new Point(15, 76);
+            radioButton7.Name = "radioButton7";
+            radioButton7.Size = new Size(109, 19);
+            radioButton7.TabIndex = 9;
+            radioButton7.TabStop = true;
+            radioButton7.Text = "Kadang-kadang";
+            radioButton7.UseVisualStyleBackColor = true;
+            // 
+            // groupBox4
+            // 
+            groupBox4.BackColor = SystemColors.ActiveCaption;
+            groupBox4.Controls.Add(radioButton13);
+            groupBox4.Controls.Add(radioButton16);
+            groupBox4.Controls.Add(radioButton14);
+            groupBox4.Controls.Add(radioButton15);
+            groupBox4.Location = new Point(383, 12);
+            groupBox4.Name = "groupBox4";
+            groupBox4.Size = new Size(290, 163);
+            groupBox4.TabIndex = 3;
+            groupBox4.TabStop = false;
+            groupBox4.Text = "Apakah kamu mengalami kesulitan untuk rileks meski sedang istirahat?";
+            // 
             // radioButton13
             // 
             radioButton13.AutoSize = true;
@@ -354,6 +284,17 @@
             radioButton13.TabStop = true;
             radioButton13.Text = "Sering";
             radioButton13.UseVisualStyleBackColor = true;
+            // 
+            // radioButton16
+            // 
+            radioButton16.AutoSize = true;
+            radioButton16.Location = new Point(16, 62);
+            radioButton16.Name = "radioButton16";
+            radioButton16.Size = new Size(93, 19);
+            radioButton16.TabIndex = 4;
+            radioButton16.TabStop = true;
+            radioButton16.Text = "Tidak Pernah";
+            radioButton16.UseVisualStyleBackColor = true;
             // 
             // radioButton14
             // 
@@ -377,16 +318,19 @@
             radioButton15.Text = "Kadang-kadang";
             radioButton15.UseVisualStyleBackColor = true;
             // 
-            // radioButton16
+            // groupBox5
             // 
-            radioButton16.AutoSize = true;
-            radioButton16.Location = new Point(16, 62);
-            radioButton16.Name = "radioButton16";
-            radioButton16.Size = new Size(93, 19);
-            radioButton16.TabIndex = 4;
-            radioButton16.TabStop = true;
-            radioButton16.Text = "Tidak Pernah";
-            radioButton16.UseVisualStyleBackColor = true;
+            groupBox5.BackColor = SystemColors.ActiveCaption;
+            groupBox5.Controls.Add(radioButton17);
+            groupBox5.Controls.Add(radioButton18);
+            groupBox5.Controls.Add(radioButton20);
+            groupBox5.Controls.Add(radioButton19);
+            groupBox5.Location = new Point(383, 201);
+            groupBox5.Name = "groupBox5";
+            groupBox5.Size = new Size(290, 154);
+            groupBox5.TabIndex = 4;
+            groupBox5.TabStop = false;
+            groupBox5.Text = "Apakah kamu merasa gelisah sampai tidak bisa diam atau tidak nyaman di tempat umum?";
             // 
             // radioButton17
             // 
@@ -410,6 +354,17 @@
             radioButton18.Text = "Tidak Pernah";
             radioButton18.UseVisualStyleBackColor = true;
             // 
+            // radioButton20
+            // 
+            radioButton20.AutoSize = true;
+            radioButton20.Location = new Point(16, 75);
+            radioButton20.Name = "radioButton20";
+            radioButton20.Size = new Size(109, 19);
+            radioButton20.TabIndex = 13;
+            radioButton20.TabStop = true;
+            radioButton20.Text = "Kadang-kadang";
+            radioButton20.UseVisualStyleBackColor = true;
+            // 
             // radioButton19
             // 
             radioButton19.AutoSize = true;
@@ -421,16 +376,19 @@
             radioButton19.Text = "Hampir setiap hari";
             radioButton19.UseVisualStyleBackColor = true;
             // 
-            // radioButton20
+            // groupBox6
             // 
-            radioButton20.AutoSize = true;
-            radioButton20.Location = new Point(16, 75);
-            radioButton20.Name = "radioButton20";
-            radioButton20.Size = new Size(109, 19);
-            radioButton20.TabIndex = 13;
-            radioButton20.TabStop = true;
-            radioButton20.Text = "Kadang-kadang";
-            radioButton20.UseVisualStyleBackColor = true;
+            groupBox6.BackColor = SystemColors.ActiveCaption;
+            groupBox6.Controls.Add(radioButton21);
+            groupBox6.Controls.Add(radioButton22);
+            groupBox6.Controls.Add(radioButton24);
+            groupBox6.Controls.Add(radioButton23);
+            groupBox6.Location = new Point(383, 382);
+            groupBox6.Name = "groupBox6";
+            groupBox6.Size = new Size(290, 164);
+            groupBox6.TabIndex = 5;
+            groupBox6.TabStop = false;
+            groupBox6.Text = "Apakah kamu mudah merasa terganggu atau cepat marah akhir-akhir ini?";
             // 
             // radioButton21
             // 
@@ -454,6 +412,17 @@
             radioButton22.Text = "Tidak Pernah";
             radioButton22.UseVisualStyleBackColor = true;
             // 
+            // radioButton24
+            // 
+            radioButton24.AutoSize = true;
+            radioButton24.Location = new Point(16, 76);
+            radioButton24.Name = "radioButton24";
+            radioButton24.Size = new Size(109, 19);
+            radioButton24.TabIndex = 17;
+            radioButton24.TabStop = true;
+            radioButton24.Text = "Kadang-kadang";
+            radioButton24.UseVisualStyleBackColor = true;
+            // 
             // radioButton23
             // 
             radioButton23.AutoSize = true;
@@ -465,16 +434,19 @@
             radioButton23.Text = "Hampir setiap hari";
             radioButton23.UseVisualStyleBackColor = true;
             // 
-            // radioButton24
+            // groupBox7
             // 
-            radioButton24.AutoSize = true;
-            radioButton24.Location = new Point(16, 76);
-            radioButton24.Name = "radioButton24";
-            radioButton24.Size = new Size(109, 19);
-            radioButton24.TabIndex = 17;
-            radioButton24.TabStop = true;
-            radioButton24.Text = "Kadang-kadang";
-            radioButton24.UseVisualStyleBackColor = true;
+            groupBox7.BackColor = SystemColors.ActiveCaption;
+            groupBox7.Controls.Add(radioButton25);
+            groupBox7.Controls.Add(radioButton26);
+            groupBox7.Controls.Add(radioButton28);
+            groupBox7.Controls.Add(radioButton27);
+            groupBox7.Location = new Point(746, 12);
+            groupBox7.Name = "groupBox7";
+            groupBox7.Size = new Size(283, 163);
+            groupBox7.TabIndex = 6;
+            groupBox7.TabStop = false;
+            groupBox7.Text = "Apakah kamu merasa takut bahwa sesuatu bisa mengendalikamu atau kamu kehilangan kendali?";
             // 
             // radioButton25
             // 
@@ -498,6 +470,17 @@
             radioButton26.Text = "Tidak Pernah";
             radioButton26.UseVisualStyleBackColor = true;
             // 
+            // radioButton28
+            // 
+            radioButton28.AutoSize = true;
+            radioButton28.Location = new Point(21, 87);
+            radioButton28.Name = "radioButton28";
+            radioButton28.Size = new Size(109, 19);
+            radioButton28.TabIndex = 21;
+            radioButton28.TabStop = true;
+            radioButton28.Text = "Kadang-kadang";
+            radioButton28.UseVisualStyleBackColor = true;
+            // 
             // radioButton27
             // 
             radioButton27.AutoSize = true;
@@ -509,16 +492,19 @@
             radioButton27.Text = "Hampir setiap hari";
             radioButton27.UseVisualStyleBackColor = true;
             // 
-            // radioButton28
+            // groupBox8
             // 
-            radioButton28.AutoSize = true;
-            radioButton28.Location = new Point(21, 87);
-            radioButton28.Name = "radioButton28";
-            radioButton28.Size = new Size(109, 19);
-            radioButton28.TabIndex = 21;
-            radioButton28.TabStop = true;
-            radioButton28.Text = "Kadang-kadang";
-            radioButton28.UseVisualStyleBackColor = true;
+            groupBox8.BackColor = SystemColors.ActiveCaption;
+            groupBox8.Controls.Add(radioButton29);
+            groupBox8.Controls.Add(radioButton30);
+            groupBox8.Controls.Add(radioButton32);
+            groupBox8.Controls.Add(radioButton31);
+            groupBox8.Location = new Point(746, 201);
+            groupBox8.Name = "groupBox8";
+            groupBox8.Size = new Size(283, 154);
+            groupBox8.TabIndex = 6;
+            groupBox8.TabStop = false;
+            groupBox8.Text = "Apakah kamu mengalami gangguan tidur (sulit tidur, sering terbangun, mimpi buruk)?";
             // 
             // radioButton29
             // 
@@ -542,6 +528,17 @@
             radioButton30.Text = "Tidak Pernah";
             radioButton30.UseVisualStyleBackColor = true;
             // 
+            // radioButton32
+            // 
+            radioButton32.AutoSize = true;
+            radioButton32.Location = new Point(21, 75);
+            radioButton32.Name = "radioButton32";
+            radioButton32.Size = new Size(109, 19);
+            radioButton32.TabIndex = 25;
+            radioButton32.TabStop = true;
+            radioButton32.Text = "Kadang-kadang";
+            radioButton32.UseVisualStyleBackColor = true;
+            // 
             // radioButton31
             // 
             radioButton31.AutoSize = true;
@@ -553,16 +550,19 @@
             radioButton31.Text = "Hampir setiap hari";
             radioButton31.UseVisualStyleBackColor = true;
             // 
-            // radioButton32
+            // groupBox9
             // 
-            radioButton32.AutoSize = true;
-            radioButton32.Location = new Point(21, 75);
-            radioButton32.Name = "radioButton32";
-            radioButton32.Size = new Size(109, 19);
-            radioButton32.TabIndex = 25;
-            radioButton32.TabStop = true;
-            radioButton32.Text = "Kadang-kadang";
-            radioButton32.UseVisualStyleBackColor = true;
+            groupBox9.BackColor = SystemColors.ActiveCaption;
+            groupBox9.Controls.Add(radioButton33);
+            groupBox9.Controls.Add(radioButton34);
+            groupBox9.Controls.Add(radioButton36);
+            groupBox9.Controls.Add(radioButton35);
+            groupBox9.Location = new Point(746, 382);
+            groupBox9.Name = "groupBox9";
+            groupBox9.Size = new Size(283, 164);
+            groupBox9.TabIndex = 7;
+            groupBox9.TabStop = false;
+            groupBox9.Text = "Apakah kamu sering mengalami sakit kepala, detak jantung cepat, atau sesak napas saat cemas?";
             // 
             // radioButton33
             // 
@@ -586,17 +586,6 @@
             radioButton34.Text = "Tidak Pernah";
             radioButton34.UseVisualStyleBackColor = true;
             // 
-            // radioButton35
-            // 
-            radioButton35.AutoSize = true;
-            radioButton35.Location = new Point(21, 126);
-            radioButton35.Name = "radioButton35";
-            radioButton35.Size = new Size(122, 19);
-            radioButton35.TabIndex = 31;
-            radioButton35.TabStop = true;
-            radioButton35.Text = "Hampir setiap hari";
-            radioButton35.UseVisualStyleBackColor = true;
-            // 
             // radioButton36
             // 
             radioButton36.AutoSize = true;
@@ -608,6 +597,17 @@
             radioButton36.Text = "Kadang-kadang";
             radioButton36.UseVisualStyleBackColor = true;
             // 
+            // radioButton35
+            // 
+            radioButton35.AutoSize = true;
+            radioButton35.Location = new Point(21, 126);
+            radioButton35.Name = "radioButton35";
+            radioButton35.Size = new Size(122, 19);
+            radioButton35.TabIndex = 31;
+            radioButton35.TabStop = true;
+            radioButton35.Text = "Hampir setiap hari";
+            radioButton35.UseVisualStyleBackColor = true;
+            // 
             // button1
             // 
             button1.BackColor = SystemColors.HotTrack;
@@ -618,6 +618,7 @@
             button1.TabIndex = 8;
             button1.Text = "Submit";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // Form3
             // 
@@ -635,8 +636,10 @@
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form3";
             Text = "Cek Kondisi Psikologis";
+            Load += Form3_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);

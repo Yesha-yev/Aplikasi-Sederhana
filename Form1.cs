@@ -24,7 +24,8 @@
 
             if (textBox1.Text == Admin && textBox2.Text == Password)
             {
-                
+                Form2 form2 = new Form2();
+                form2.ShowDialog();
             }
         }
 
